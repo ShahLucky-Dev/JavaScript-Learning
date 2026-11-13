@@ -77,3 +77,17 @@ for (i = 0; i <= 10; i++) {
 //   console.log(i);
 //   i++;
 // } while (i <= 10);
+
+//for loop
+
+for (i = 1; i <= 10; i++) {
+  console.log(i);
+}
+
+for (i = 10; i >= 1; i--) {
+  console.log(i);
+}
+
+for (i % 2 === 0; i <= 20; i++) {
+  console.log(i);
+}
