@@ -63,3 +63,31 @@ const func = (x) => {
 func(25);
 func(66);
 func(84);
+
+function add(a, b) {
+  return a + b;
+}
+add(2, 5);
+
+function checkEvenOdd(num) {
+  if (num % 2 === 0) {
+    console.log("even");
+  } else {
+    console.log("odd");
+  }
+}
+
+checkEvenOdd(5);
+
+function findLargest(a, b) {
+  if (a > b) {
+    return a;
+  } else if (b > a) {
+    return b;
+  } else {
+    return "both are same";
+  }
+}
+
+findLargest(10, 20);
+findLargest(50, 50);
