@@ -91,3 +91,22 @@ function findLargest(a, b) {
 
 findLargest(10, 20);
 findLargest(50, 50);
+
+const sq = (num) => {
+  return num * num;
+};
+
+console.log(sq(5));
+
+const add = (a, b) => a + b;
+console.log(add(15, 25));
+
+const checkEvenOdd = (num) => {
+  if (num % 2 === 0) {
+    return "Even";
+  } else {
+    return "Odd";
+  }
+};
+console.log(checkEvenOdd(10));
+console.log(checkEvenOdd(7));
