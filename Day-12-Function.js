@@ -110,3 +110,18 @@ const checkEvenOdd = (num) => {
 };
 console.log(checkEvenOdd(10));
 console.log(checkEvenOdd(7));
+
+//hoisting
+
+console.log(a);
+
+var a = 10;
+
+function test() {
+  console.log(a);
+  var a = 20;
+}
+
+test();
+
+// it wil give undefined , 20
