@@ -67,3 +67,23 @@ arr.splice(start, deleteCount, newValue); // splice example
 //branch practice
 
 let name = "lucky feature";
+
+//prcatice array method
+
+let numbers = [10, 20, 30, 40, 50];
+
+numbers.unshift(5);
+numbers.push(60);
+numbers.pop();
+console.log(numbers);
+
+let fruits = ["apple", "mango", "banana", "orange", "grepes"];
+
+result = fruits.slice(1, 4);
+console.log(result);
+console.log(fruits);
+
+let number = [10, 20, 30, 40, 50];
+
+let result = number.splice(1, 2);
+console.log(result);
