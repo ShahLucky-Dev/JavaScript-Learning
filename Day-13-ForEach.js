@@ -38,15 +38,15 @@ prices.forEach((price) => {
 
 //MAP
 
-let price = [100, 200, 300, 400];
+// let price = [100, 200, 300, 400];
 
-let dbp = price.map((num) => {
-  return num * 2;
-});
+// let dbp = price.map((num) => {
+//   return num * 2;
+// });
 
 console.log(dbp);
 
-let numbers = [5, 10, 15, 20, 25];
+/*let numbers = [5, 10, 15, 20, 25];
 
 let square = numbers.map((num) => {
   return num * num;
@@ -60,4 +60,29 @@ let changeCase = students.map((std) => {
   return std.toLocaleLowerCase();
 });
 
-console.log(changeCase);
+console.log(changeCase);*/
+
+//filter
+
+let numbers = [10, 15, 20, 25, 30, 35, 40];
+
+let result = numbers.filter((num) => {
+  return num % 2 === 0;
+});
+
+console.log(result);
+
+let age = [12, 15, 18, 16, 30, 44];
+let aged = age.filter((num) => {
+  return num >= 18;
+});
+
+console.log(aged);
+
+let price = [100, 200, 25, 500, 1000];
+
+let bp = price.filter((num) => {
+  return num > 500;
+});
+
+console.log(bp);
