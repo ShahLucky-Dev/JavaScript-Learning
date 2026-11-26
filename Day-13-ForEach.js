@@ -86,3 +86,35 @@ let bp = price.filter((num) => {
 });
 
 console.log(bp);
+
+// find
+
+let ages = [12, 15, 18, 22, 25, 30];
+
+let selected = ages.find((num) => {
+  return num > 18;
+});
+
+console.log(selected);
+
+let students = [
+  { name: "Lucky", marks: 75 },
+  { name: "Rahul", marks: 45 },
+  { name: "Aman", marks: 90 },
+  { name: "Jay", marks: 60 },
+];
+
+let stdt = students.find((std) => {
+  return std.name === "Aman";
+});
+
+let products = [
+  { name: "Mobile", price: 15000 },
+  { name: "Laptop", price: 50000 },
+  { name: "Mouse", price: 500 },
+  { name: "Keyboard", price: 1000 },
+];
+
+let product = products.find((prd) => {
+  return prd.price > 1000;
+});
