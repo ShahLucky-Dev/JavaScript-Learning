@@ -118,3 +118,33 @@ let products = [
 let product = products.find((prd) => {
   return prd.price > 1000;
 });
+
+//reduce
+
+let amount = [100, 200, 300, 400, 500];
+
+let total = amount.reduce((sum, num) => {
+  return sum + num;
+}, 0);
+
+console.log(total);
+
+let multi = [2, 4, 6, 8];
+
+let mul = multi.reduce((ml, num) => {
+  return ml * num;
+}, 1);
+
+console.log(mul);
+
+let cart = [
+  { name: "Mobile", price: 10000 },
+  { name: "Mouse", price: 500 },
+  { name: "Keyboard", price: 1000 },
+];
+
+let ta = cart.reduce((total, num) => {
+  return total + num.price;
+}, 0);
+
+console.log(ta);
